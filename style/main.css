@@ -1,0 +1,86 @@
+* {
+  border-spacing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Figtree";
+  background-color: hsl(47, 88%, 63%);
+}
+body .main-container {
+  position: relative;
+}
+body .main-container .black-shadow {
+  position: absolute;
+  z-index: -10;
+  top: 10px;
+  left: calc(50% + 10px);
+  background-color: hsl(0, 0%, 7%);
+  width: 290px;
+  border-radius: 15px;
+  height: 100%;
+  transform: translate(-50%, 0);
+}
+body .main-container .card-container {
+  z-index: 10;
+  margin: 100px auto;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  width: 250px;
+  padding: 20px;
+}
+body .main-container .card-container .top-img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+body .main-container .card-container .tag {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(0, 0%, 7%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 20px 0 10px;
+}
+body .main-container .card-container .date {
+  color: hsl(0, 0%, 7%);
+  font-size: 12px;
+}
+body .main-container .card-container h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+body .main-container .card-container h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+body .main-container .card-container p {
+  color: hsl(0, 0%, 42%);
+  font-size: 12px;
+  line-height: 1.5;
+}
+body .main-container .card-container .author-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .main-container .card-container .author-container img {
+  width: 30px;
+  height: 30px;
+}
+body .main-container .card-container .author-container span {
+  font-weight: 700;
+  font-size: 12px;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=main.css.map */
